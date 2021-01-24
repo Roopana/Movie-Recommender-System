@@ -7,7 +7,7 @@ Item-Item and User-User filtering are personalized Collaborative Filtering techn
 ### Matrix Factorization techniques
 Funk SVD and ALS(Alternate Least Squares) are Matrix Factorization methods and use latent factors. These two algorithms can handle the __scalability__ and __sparsity__ issues of the data. ALS is used with implicit data due to the non-convex nature of the loss function. They handle sparsity and give __global maxima__ however __lack interpretability__ of recommendations. 
 
-## Results comparision (RMSE values)
+## Results (RMSE values)
 - Funk SVD : 0.856871
 - Recommender v1(MF with embedding & dense layers): 0.742
 - Recommender v2(MF with embedding layers): 0.713
