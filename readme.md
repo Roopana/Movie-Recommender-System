@@ -9,8 +9,8 @@ Funk SVD and ALS(Alternate Least Squares) are Matrix Factorization methods and u
 
 ## Results comparision (RMSE values)
 - Funk SVD : 0.856871
-- Recommender v1: 0.742
-- Recommender v2: 0.713
+- Recommender v1(MF with embedding & dense layers): 0.742
+- Recommender v2(MF with embedding layers): 0.713
 
 ## Sources:
 We consulted following blogs to explore design of neural networks:
