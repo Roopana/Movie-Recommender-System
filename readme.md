@@ -1,5 +1,5 @@
-# Movie Recommender System
-This module has implementation of a movie recommender system based on Funk SVD algorithm. This algorithm is developed by Simon Funk during the [Netflix prize challenge](https://en.wikipedia.org/wiki/Netflix_Prize). The effectiveness of the algorithm is majorly driven by the latent factors used to identify user-item association. The algorithm determines these values using Matrix Factorization between user ratings and item ratings matrices. The prediction results can be improved by assigning different regularization weights to the latent factors based on items' popularity and users' activeness 
+# Movie Recommender System - Funk SVD
+This module has implementation of a movie recommender system based on __Funk SVD__ algorithm. This algorithm is developed by Simon Funk during the [Netflix prize challenge](https://en.wikipedia.org/wiki/Netflix_Prize). The effectiveness of the algorithm is majorly driven by the latent factors used to identify user-item association. The algorithm determines these values using Matrix Factorization between user ratings and item ratings matrices. The prediction results can be improved by assigning different regularization weights to the latent factors based on items' popularity and users' activeness 
 
 ## Comparison with other algorithms
 ### Collaborative Filtering
